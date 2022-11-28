@@ -4,6 +4,29 @@
   <title>static dev</title>
   <meta name="description" content="Coming soon"/>
   <meta content="#43B581" name="theme-color">
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD0D-dkMuJD1I199XTEi1EsBnPk2YhCack",
+    authDomain: "staticdev-org.firebaseapp.com",
+    projectId: "staticdev-org",
+    storageBucket: "staticdev-org.appspot.com",
+    messagingSenderId: "202833724804",
+    appId: "1:202833724804:web:24bfee70cb323ae7a409d1",
+    measurementId: "G-L70LRGGCCC"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 
   <style>
   body, html {
