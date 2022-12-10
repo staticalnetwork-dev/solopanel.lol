@@ -1,38 +1,29 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>The Window Object</h1>
-<h2>The prompt() Method</h2>
-
-<p>Click the button to demonstrate the prompt box.</p>
-
-<button onclick="myFunction()">Try it</button>
-
+<form>
+    <label id="link">link:</label>
+    <input type="text" id="linkvideo" name="link" value="John"><br>
+      <input type="submit" value="Submit">
+  </form>
 <script>
-function myFunction() {
-  let link = prompt("Please enter your .m3au file", "https://example.com/playlist.m3au");
-  if (link != null) {
-document.body.innerHTML = ' <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+      a = document.getElementById('linkvideo').value;
+  </script>
 
 
-<!-- HTML -->
-<video id='hls-example'  class="video-js vjs-default-skin" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; margin:0; padding:0;" controls>
-<source type="application/x-mpegURL" src="${link}">
-</video>
-
-
-<!-- JS code -->
-<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
-<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
-
-<script>
-var player = videojs('hls-example');
-player.play();
-</script>';
-</script>
-
-</body>
-</html>
+ <div id="bottom">
+<!-- CSS  -->
+<link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+    <!-- HTML -->
+<video id='hls-example'  class="video-js vjs-default-skin" style="top:0; left:0; bottom:0; right:0; width:100%; height:100%; margin:0; padding:0;" controls>
+    <source type="application/x-mpegURL" src="${a}">
+    </video>
+    
+    
+    <!-- JS code -->
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
+    <script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+    
+    <script>
+    var player = videojs('hls-example');
+    player.play();
+    </script>
