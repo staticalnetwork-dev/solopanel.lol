@@ -1,20 +1,18 @@
-<form>
-    <label id="link">link:</label>
-    <input type="text" id="linkvideo" name="link" value="John"><br>
-      <input type="submit" value="Submit">
-  </form>
-<script>
-      a = document.getElementById('linkvideo').value;
+  <script>
+    var assignment_id = window.location.href.split("=")[1];
+    if (typeof assignment_id == "undefined") {
+      alert("Error: Could not infer the assignment ID. Are you on the correct URL?");
+      return;
+    }
   </script>
 
 
- <div id="bottom">
 <!-- CSS  -->
 <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
     <!-- HTML -->
 <video id='hls-example'  class="video-js vjs-default-skin" style="top:0; left:0; bottom:0; right:0; width:100%; height:100%; margin:0; padding:0;" controls>
-    <source type="application/x-mpegURL" src="${a}">
-    </video>
+    <source type="application/x-mpegURL" src="" + assignment_id;>
+</video>
     
     
     <!-- JS code -->
