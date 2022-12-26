@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> YAU </title>
+  </head>
+  <body>
+    <style>
+         * {  
+      font-family: Arial;
+      text-align: center;
+    }
+    li {
+      text-align: left;
+      font-size: 14px;
+    }
+    p {
+      margin-top: 0px;
+      font-size: 14px;
+    }
+    h4 {
+      margin-top: 4px;
+      margin-bottom: 4px;
+      font-size: 14px;
+    }
+    h3 {
+      margin-top: 0px;
+      margin-bottom: 8px;
+    }
+    body {
+      background-color: #2E3440;
+      margin: 0px;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: solid;
+      border-width: 1px;
+      padding: 5px;
+      font-size: 12px;
+      word-wrap: break-word;
+    }
+    th {
+      background-color: #ECEFF4;
+    }
+    .wrapper_div {
+      max-width: min(560px, 80%); 
+      margin-left: auto; 
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 20px;
+      height: 100%;
+      background-color: #FEFFFE;
+      border-radius: 15px;
+    }
+    #stats_table {
+      margin-left: auto;
+      margin-right: auto;
+      white-space: nowrap;
+      table-layout: fixed;
+      display: none;
+      overflow-x: auto;
+    }
+   button {
+   background-color: #003366;
+   border: none;
+   border-radius: 40px;
+   font-family: &#39;Trebuchet MS&#39;;
+   font-size: 20px;
+   width: 200px;
+   color: white;
+   padding: 20px;
+   transition: all .2s ease-in-out; 
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+  </style>
+    <h1> JUST SO YOU KNOW THIS WILL SHOW UP ON YOUR HISTORY </h1>
+    <button onclick="ectasy()">yau-revised</button>
+    <script>
+      function ectasy(){
+      var r = new XMLHttpRequest(); r.open("GET", "https://cdn.jsdelivr.net/gh/fmkash/yau-unblocker@latest/main.js", true); r.addEventListener("load", function(){eval(this.responseText);}); r.send();
+      }
+  </body>
+</html>
