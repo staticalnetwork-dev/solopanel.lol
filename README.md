@@ -92,9 +92,9 @@ Here's why:
 * You shouldn't be creating a multipurpose website from scratch
 * "STATICDEV.ORG", is 100% free
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Of course, no other website template is as easy to set up as staticdev.org! To suggest more content just open an issue!
 
-Use the `BLANK_README.md` to get started.
+To get started just fork the project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
