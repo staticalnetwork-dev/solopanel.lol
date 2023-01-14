@@ -102,16 +102,9 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This site is mostly built with HTML, JS, CSS, & more.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![HTML][HTML5]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][HTML-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-*
+* [![HTML][HTML5]][static-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,7 +251,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://staticdev.org/
+[static-url]: https://staticdev.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
