@@ -111,7 +111,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![HTML5]][HTML-url]
+* [![HTML5][HTML-url]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
