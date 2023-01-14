@@ -34,10 +34,10 @@
     <img src="assets/staticdev.org.png" alt="Logo" width="150" height="150">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">STATICDEV.ORG</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A multipurpose website with a website starter! :)
     <br />
     <a href="https://github.com/fmkash/staticdev.org"><strong>Explore the docs »</strong></a>
     <br />
