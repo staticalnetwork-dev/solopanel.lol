@@ -106,12 +106,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
+* [![Vue][HTML]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+* [![Laravel][Laravel.com]][HTML-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![HTML5][HTML-url]]
+*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -253,7 +253,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[HTML5-URL]: https://img.shields.io/badge/HTML5-000000?style=for-the-badge 
+[HTML5]: https://img.shields.io/badge/HTML5-000000?style=for-the-badge 
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
